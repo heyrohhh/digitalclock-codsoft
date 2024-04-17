@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Clock</title>
+<style>
+
+    body{
+        background-color: rgb(1, 1, 43);
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        width: 99.8%;
+
+    height: 70dvh; 
+    margin-top: 1rem;
+    border-radius: 10px;
+   
+  }
+  .container1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 45dvh; 
+    border-radius: 10px;
+    
+    
+  }
+  #clock {
+    font-family: Arial, sans-serif;
+    font-size: 12rem;
+    text-align: center;
+  
+    color: white;
+    height: fit-content;
+    border-radius: 10px;
+    
+  }
+
+  #amPm{
+    text-align: center;
+   
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12rem;
+  
+    height: fit-content;
+    border-radius: 10px;
+    margin-left: 4px;
+  }
+  #circle{
+    background-color: rgb(26, 4, 189);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10rem;
+   
+  }
+  .triangle{
+    background-color:rgb(7, 188, 254);
+    height: 10rem;
+    width: 97%;
+    border-radius: 10rem;
+    
+  }
+  .shapes{
+    margin-left: 15rem;
+    margin-top: 8rem;
+    
+    width: 50%;
+  }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="shapes">
+            <div class="triangle"><div id="circle"></div></div>
+        </div>
+        <div class="container1">
+            <div id="clock"></div><span id="amPm"></span>
+        </div>
+        </div>
+        
+    
+
+<script src="index.js"></script>
+</body>
+</html>
